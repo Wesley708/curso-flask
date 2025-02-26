@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <form action="" method="post">
+        <input type="number" name="pesoForm" placeholder="Peso"><br><br><input type="number" name="alturaForm" placeholder="Altura"><br><br><input type="submit">
+    </form>
+    <h1>
+        Esse é o seu IMC : {{resultado|default('Sem IMC', True)}}
+    </h1>
+</body>
+</html>
